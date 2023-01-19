@@ -1,0 +1,51 @@
+#reviewForm{
+    background: #92d9b9;
+    padding: 5px;
+    width: 100%;  
+    margin-bottom: 15px;
+
+}
+
+#inputComment{
+    flex-grow: 1;
+    width: 90%;
+    height: 30px;
+}
+
+#comments{
+    list-style-type: none;
+}
+
+#comments > li:nth-child(odd){
+    background: lightblue;
+}
+
+#send {
+    font-size: 19px;
+}
+
+#postUp {
+    background: white; 
+    padding: 1px; 
+    border: 1px solid lightgray; 
+    margin: 1px;
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 15px;
+    border-radius: 15px;
+
+}
+
+.opinionesInd{
+    border: 2px;
+    border-radius: 10px;
+    background-color: rgb(215, 240, 229);
+    margin:  20px;
+    padding: 2px;
+}
+
+.usuario{
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(13, 120, 73);
+}

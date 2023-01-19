@@ -1,0 +1,46 @@
+table {
+    font-family: "Lucida Sans Unicode";
+    font-size: 12px;
+    margin: auto; /*para centrar la tabla*/
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 480px;
+    text-align: left;
+    border-collapse: collapse;
+
+}
+
+th {
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    
+    border-bottom: 1px solid #fff; 
+    color: #039;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+}
+
+table td :last-child{
+    
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+table button{
+    background: rgba(255, 0, 0, 0.333);
+}
+
+.formBoton{
+    background: white;
+    box-shadow: none;
+    border: none;
+    padding: 0px;
+    width: 0px;
+}

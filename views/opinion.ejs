@@ -1,0 +1,14 @@
+<%- include("header", {}) %>
+<h1 id="titulo"><%= title %></h1>
+<ul id="comments"></ul>
+<div id="postUp"><%- opiniones%></div>
+<div>
+    <form id="reviewForm"  method="post">
+        <input id="inputComment" class="input" type="text" placeholder="Escribir un comentario" name="inputComment">
+        <button id="send" type="submit">Enviar</button>
+    </form>
+</div>
+
+    
+   
+<%- include("footer", {}) %>
